@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f5d4575-d44f-4d3c-b592-50d8bac00b62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/lada/rest/OlaMundo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/lada/rest/OlaMundoTeste.java" afterDir="false" />
+    <list default="true" id="1f5d4575-d44f-4d3c-b592-50d8bac00b62" name="Changes" comment="primeiro commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/ce/lada/rest/UserJsonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ce/lada/rest/OlaMundoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ce/lada/rest/OlaMundoTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +24,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;lucasdoourado&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/lucasdoourado/rest_assured-automation-framework.git&quot;,
+    &quot;accountId&quot;: &quot;0ca022d5-2cdd-4975-ad0c-c176f76d8d3d&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2eun9tQYz9fHFK0Wy3mL1kC6JIJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,13 +50,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.OlaMundo.executor": "Run",
+    "JUnit.OlaMundoTeste.devoConhecerMatchersHamcrest.executor": "Run",
+    "JUnit.OlaMundoTeste.devoConhecerOutrasFormasRestAssured.executor": "Run",
+    "JUnit.OlaMundoTeste.devoValidarBody.executor": "Run",
+    "JUnit.OlaMundoTeste.testOlaMundo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.OlaMundoTeste.testOlaMundo">
+  <component name="RunManager" selected="JUnit.OlaMundoTeste.devoValidarBody">
     <configuration name="OlaMundo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.ce.lada.rest.OlaMundo" />
       <module name="CursoRestAssured" />
@@ -59,6 +70,54 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OlaMundoTeste.devoConhecerMatchersHamcrest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.lada.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.lada.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.lada.rest.OlaMundoTeste" />
+      <option name="METHOD_NAME" value="devoConhecerMatchersHamcrest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OlaMundoTeste.devoConhecerOutrasFormasRestAssured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.lada.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.lada.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.lada.rest.OlaMundoTeste" />
+      <option name="METHOD_NAME" value="devoConhecerOutrasFormasRestAssured" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OlaMundoTeste.devoValidarBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CursoRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.ce.lada.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.ce.lada.rest" />
+      <option name="MAIN_CLASS_NAME" value="br.ce.lada.rest.OlaMundoTeste" />
+      <option name="METHOD_NAME" value="devoValidarBody" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -81,6 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OlaMundoTeste.devoValidarBody" />
+        <item itemvalue="JUnit.OlaMundoTeste.devoConhecerMatchersHamcrest" />
+        <item itemvalue="JUnit.OlaMundoTeste.devoConhecerOutrasFormasRestAssured" />
         <item itemvalue="JUnit.OlaMundoTeste.testOlaMundo" />
         <item itemvalue="Application.OlaMundo" />
       </list>
@@ -95,6 +157,42 @@
       <option name="presentableId" value="Default" />
       <updated>1712763182524</updated>
     </task>
+    <task id="LOCAL-00001" summary="primeiro commit">
+      <option name="closed" value="true" />
+      <created>1712782241748</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712782241748</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primeiro commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="primeiro commit" />
   </component>
 </project>
